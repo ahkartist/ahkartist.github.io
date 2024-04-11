@@ -293,7 +293,7 @@ nav ul li a {
 }
 
 /* grayscale youtube videos */
-iframe {
+/* iframe {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
@@ -301,7 +301,10 @@ iframe {
   filter: grayscale(100%);
   border-radius: 5px;
   padding-bottom: 5px;
-}
+} */
+
+
+
 
 @media screen and (max-width: 1245px){
   .sub-title {
