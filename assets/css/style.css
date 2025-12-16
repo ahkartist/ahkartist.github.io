@@ -303,6 +303,59 @@ nav ul li a {
   padding-bottom: 5px;
 } */
 
+/*Starting here*/
+/* Contact section layout */
+.contact-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+  margin-top: 60px;
+}
+
+/* Individual contact item */
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 2px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.contact-item i {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.contact-item span {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Hover effect */
+.contact-item:hover {
+  transform: translateY(-4px);
+  opacity: 0.85;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .contact-row {
+    gap: 60px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .contact-row {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+/*Ending here-Customization*/
+
 
 
 
